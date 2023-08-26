@@ -1,0 +1,9 @@
+const db = {
+        host:"5-t.h.filess.io",
+        user:"projectdb_answertake",
+        password:"21dcba1445b51c25acd5c514ba0719eb5f966cd1",
+        database:"projectdb_answertake",
+        port:"3307"
+    
+}
+module.exports = db;

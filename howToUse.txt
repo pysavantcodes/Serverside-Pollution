@@ -1,0 +1,25 @@
+HOW TO SET UP SITE
+
+1. First thing is to download and install node if you don't have, here is the download url, https://nodejs.org/en/download
+
+2. Once you have node, in this root of this project, open up Command Prompt or any terminal and type in the command, "npm install"
+
+3. Once this is done, right inside the terminal, run this command "npm start"
+
+4. As soon as this starts, open up your browser and type in "localhost:4111", this will open up the site on you browser
+
+
+
+TESTING VULNERABILITY
+
+Based on this type of vulnerability which is "Server Side Prototype Pollution", the vulnerability could be tested on the api endpoint, but to make it client friendly, i made the vulnerability to be tested right from the frontend.
+
+- Server-side prototype pollution is a type of vulnerability that occurs when an attacker manipulates the prototype of an object in a server-side application to inject malicious code or modify the behavior of the application
+
+1. To exploit it, while creating a post, in the content field, after typing your content then close the content with ";".
+
+2. After that, type in any executable command e.g. DIR, echo You have been hacked, etc, then monitor your terminal.
+
+This attack can be used to monitor project files in a server, download and execute an attack file on the server and so on.
+
+
